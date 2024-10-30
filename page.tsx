@@ -1,9 +1,7 @@
-'use client';
-import { Component } from "@/components/component/component";
-import { useRouter } from 'next/navigation'
+import { PlanTrip } from "@/components/component/plan-trip";
+
 export default function Home() {
-  const router = useRouter()
   return (
-   < Component/>
+    <PlanTrip />
   );
 }
